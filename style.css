@@ -1,0 +1,366 @@
+#main-container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+p {
+  font-family: Roboto;
+}
+.header {
+  display: flex;
+  background-color: rgb(252, 252, 252);
+  position: fixed;
+}
+.whatsapp-logo {
+  margin-top: 14px;
+  margin-left: 30px;
+}
+.dropdbtn {
+  background-color: white;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  font-family: Roboto;
+  margin-right: 30px;
+  margin-top: 14px;
+  font-weight: bold;
+}
+.dropdbtndropdbutton-ext {
+  background-color: white;
+  border-style: none;
+  margin-right: 30px;
+  font-family: Roboto;
+  margin-top: 14px;
+  font-weight: bold;
+}
+
+.dropdown {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-left: 240px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: pink;
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+.dropdown-content a:hover {
+  background-color: white;
+}
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
+.dropdown:hover .dropdbtn {
+  background-color: rgb(197, 196, 196);
+}
+.in-image {
+  width: 30px;
+  margin-bottom: 10px;
+}
+.downloadimg {
+  width: 15px;
+}
+.app-download {
+  background-color: rgb(0, 211, 53);
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 220px;
+  margin-top: 14px;
+}
+.app-download:hover {
+  background-color: black;
+  color: white;
+  image-resolution: inherit;
+  transition: 1s;
+  border-style: solid;
+  cursor: pointer;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.background-img {
+  margin-left: 50px;
+  position: static;
+  margin-top: 95px;
+  border-radius: 50px;
+}
+.first-text {
+  position: absolute;
+  bottom: 380px;
+  color: white;
+  left: 225px;
+  font-family: Roboto;
+  font-size: 80px;
+  font-weight: 400;
+  text-align: left;
+}
+.second-text {
+  position: absolute;
+  bottom: 320px;
+  color: white;
+  left: 225px;
+  font-family: Roboto;
+  font-size: 15px;
+  text-align: left;
+}
+.text-image {
+  position: absolute;
+  left: 910px;
+  bottom: 620px;
+  width: 450px;
+}
+.fireheart {
+  position: absolute;
+  left: 930px;
+  bottom: 600px;
+  width: 33px;
+  background-color: white;
+  border-radius: 20px;
+}
+.reply-sticker {
+  position: absolute;
+  left: 1210px;
+  bottom: 490px;
+  width: 140px;
+}
+.third-reply {
+  position: absolute;
+  left: 915px;
+  bottom: 450px;
+  width: 370px;
+}
+.sended-picture {
+  position: absolute;
+  left: 905px;
+  bottom: 95px;
+  width: 350px;
+}
+.reaction-emoji {
+  position: absolute;
+  left: 930px;
+  bottom: 85px;
+  width: 23px;
+  background-color: white;
+  border-radius: 10px;
+}
+.down-text {
+  position: absolute;
+  left: 1040px;
+  bottom: -20px;
+  font-family: Roboto;
+  font-size: 14px;
+}
+.contacts-details {
+  width: 70px;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+.replied-message {
+  width: 200px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+body {
+  scroll-behavior: smooth;
+}
+.detail-text {
+  margin-left: 72px;
+  margin-top: 80px;
+  font-family: Roboto;
+  font-size: 45px;
+  text-align: center;
+  font-weight: 500;
+}
+.learn-morebtn {
+  background-color: white;
+  font-family: Roboto;
+  text-decoration: underline;
+  text-decoration-color: black;
+  border-style: none;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.learn-morebtn:hover {
+  color: green;
+  text-decoration-color: green;
+}
+.nmam {
+  font-size: 60px;
+  font-family: Roboto;
+}
+.fagc {
+  font-family: Roboto;
+  font-size: 15px;
+}
+.vc-screenshot {
+  margin-left: 200px;
+}
+.speakimg {
+  margin-left: 180px;
+  margin-top: 70px;
+}
+.speak-free {
+  font-size: 63px;
+  color: white;
+  font-family: Roboto;
+  margin-left: 100px;
+  margin-top: 130px;
+}
+.descriptive-text {
+  color: white;
+  font-family: Roboto;
+  margin-left: 100px;
+  margin-top: 0;
+}
+.keeptxt {
+  font-size: 61px;
+  font-family: Roboto;
+  margin-top: 27%;
+  margin-left: 200px;
+  margin-bottom: 5%;
+}
+.subtxt2 {
+  font-family: Roboto;
+  margin-left: 200px;
+  margin-bottom: 0%;
+}
+.gcscr {
+  width: 270px;
+  margin-left: 55%;
+  margin-top: 21%;
+  background-color: bisque;
+  border-radius: 16px;
+}
+.saytxt {
+  font-size: 61px;
+  font-family: Roboto;
+  margin-top: 34%;
+  margin-left: 500px;
+  margin-bottom: 5%;
+}
+.subtxt3 {
+  font-family: Roboto;
+  margin-left: 500px;
+  margin-bottom: 0%;
+}
+.desscr {
+  margin-left: 80%;
+  margin-top: 55%;
+}
+.Transformtxt {
+  font-size: 61px;
+  font-family: Roboto;
+  margin-top: 44%;
+  margin-left: 300px;
+  margin-bottom: 0%;
+}
+.subtxt4 {
+  font-family: Roboto;
+  margin-left: 300px;
+  margin-bottom: 0%;
+}
+.businessscr {
+  margin-left: 60%;
+  margin-top: 30%;
+}
+.headertext {
+  color: white;
+  font-family: Roboto;
+  margin-bottom: 30%;
+}
+.optext {
+  color: white;
+  font-family: Roboto;
+}
+.subdividecell {
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 6%;
+}
+.subdividecell1 {
+  margin-left: 24%;
+  margin-right: 4%;
+  margin-top: 6%;
+}
+.belowbtn1 {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 95px;
+  border-style: solid;
+  margin-left: 7%;
+  border-color: white;
+}
+.belowbtn {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 95px;
+  border-style: solid;
+  margin-left: 2%;
+  border-color: white;
+}
+.buttonimg {
+  width: 35px;
+  padding-right: 30px;
+  margin-right: 100px;
+}
+#langopt {
+  width: 185px;
+  height: 45px;
+  background-color: rgba(17, 27, 33, 255);
+  font-family: Roboto;
+  font-weight: bold;
+  color: white;
+  border-radius: 50px;
+  padding-left: 15px;
+  margin-left: 10%;
+}
+.optionedits {
+  background-color: white;
+  color: black;
+  font-family: Roboto;
+  scroll-behavior: smooth;
+}
+.downtxt1 {
+  font-family: Roboto;
+  color: white;
+  margin-left: 13%;
+  font-size: 14px;
+}
+.downtxt2 {
+  font-family: Roboto;
+  color: white;
+  margin-left: 5%;
+  font-size: 14px;
+}
+.downtxt3 {
+  font-family: Roboto;
+  color: white;
+  margin-left: 5%;
+  font-size: 14px;
+}
